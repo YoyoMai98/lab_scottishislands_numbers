@@ -15,6 +15,7 @@ public class Runner {
         scottishIslands.add("Tresco");
 
 //        1. Add "Coll" to the end of the list
+        scottishIslands.add("Coll");
 //        2. Add "Tiree" to the start of the list
 //        3. Add "Islay" after "Jura" and before "Mull"
 //        4. Print out the index position of "Skye"
