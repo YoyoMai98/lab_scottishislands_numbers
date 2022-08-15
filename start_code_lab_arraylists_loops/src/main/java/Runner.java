@@ -75,6 +75,12 @@ public class Runner {
         int difference = largestValue - smallestValue;
         System.out.println("difference: " + difference);
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
+        for(int i = 1; i < numbers.size(); i++){
+            if(numbers.get(i) == 1 && numbers.get(i-1) == 1){
+                System.out.println("a 1 next to a 1: " + "true");
+                break;
+            }
+        }
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
