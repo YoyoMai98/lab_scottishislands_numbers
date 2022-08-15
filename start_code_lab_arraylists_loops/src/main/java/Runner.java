@@ -58,11 +58,18 @@ public class Runner {
 //        2. Print the difference between the largest and smallest value
         int largestValue = numbers.get(0);
         int smallestValue = numbers.get(0);
-        for(int i = 1; i < numbers.size(); i++){
-            if(numbers.get(i) > largestValue){
-                largestValue = numbers.get(i);
-            }else if(numbers.get(i) < smallestValue){
-                smallestValue = numbers.get(i);
+//        for(int i = 1; i < numbers.size(); i++){
+//            if(numbers.get(i) > largestValue){
+//                largestValue = numbers.get(i);
+//            }else if(numbers.get(i) < smallestValue){
+//                smallestValue = numbers.get(i);
+//            }
+//        }
+        for(int number : numbers){
+            if(number > largestValue){
+                largestValue = number;
+            }else if(number < smallestValue){
+                smallestValue = number;
             }
         }
         int difference = largestValue - smallestValue;
