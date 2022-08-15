@@ -23,7 +23,7 @@ public class Runner {
         scottishIslands.add(mullId, "Islay");
 //        4. Print out the index position of "Skye"
         int skyeId = scottishIslands.indexOf("Skye");
-        System.out.println(skyeId);
+        System.out.println("Skye index: " + skyeId);
 //        5. Remove "Tresco" from the list by name
         scottishIslands.remove("Tresco");
 //        6. Remove "Arran" from the list by index
