@@ -30,7 +30,7 @@ public class Runner {
         int arranId = scottishIslands.indexOf("Arran");
         scottishIslands.remove(arranId);
 //        7. Print the number of islands in your arraylist
-        System.out.println(scottishIslands.size());
+        System.out.println("number of islands: " + scottishIslands.size());
 //        8. Sort the list alphabetically
         Collections.sort(scottishIslands);
 //        9. Print out all the islands using a for loop
@@ -47,6 +47,7 @@ public class Runner {
         System.out.println("numbers: " + numbers);
 
 //        1. Print out a list of the even integers
+
 //        2. Print the difference between the largest and smallest value
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 //        4. Print the sum of the numbers,
