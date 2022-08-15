@@ -22,6 +22,8 @@ public class Runner {
         int mullId = scottishIslands.indexOf("Mull");
         scottishIslands.add(mullId, "Islay");
 //        4. Print out the index position of "Skye"
+        int skyeId = scottishIslands.indexOf("Skye");
+        System.out.println(skyeId);
 //        5. Remove "Tresco" from the list by name
 //        6. Remove "Arran" from the list by index
 //        7. Print the number of islands in your arraylist
