@@ -91,7 +91,16 @@ public class Runner {
 //           ...except the number 13 is unlucky, so it does not count...
 //           ...and numbers that come immediately after a 13 also do not count.
 //
-//          So [7, 13, 2] would have sum of 9.
+//          So [7, 13, 2] would have sum of 7.
+        int sumBeforeThirteen = 0;
+        for(int number : numbers){
+            if(number != 13){
+                sumBeforeThirteen += number;
+            }else {
+                break;
+            }
+        }
+        System.out.println("sum before meeting 13: " + sumBeforeThirteen);
 
     }
 
