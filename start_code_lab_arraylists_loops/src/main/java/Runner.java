@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -55,6 +56,17 @@ public class Runner {
         }
         System.out.println("even numbers: " + evenNumbers);
 //        2. Print the difference between the largest and smallest value
+        int largestValue = numbers.get(0);
+        int smallestValue = numbers.get(0);
+        for(int i = 1; i < numbers.size(); i++){
+            if(numbers.get(i) > largestValue){
+                largestValue = numbers.get(i);
+            }else if(numbers.get(i) < smallestValue){
+                smallestValue = numbers.get(i);
+            }
+        }
+        int difference = largestValue - smallestValue;
+        System.out.println("difference: " + difference);
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
